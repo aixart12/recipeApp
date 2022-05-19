@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { instance } from '../setProxy'
 
 
-
+import "./style.css";
 
 
 export default function Recipelist() {
@@ -16,12 +16,12 @@ export default function Recipelist() {
     })
   }, [])
   return (
-    <div>
-      <p>Hi</p>
+    <div className='Three'>
+      <p>MyLIST</p>
       {
         mylist && mylist.map((item: any) => {
           return (
-            <div key={item.id}>
+            <div className='Four' key={item.id}>
               <p>Name : {item.name}</p>
               <p>Id : {item.recipeId}</p>
               <p>Description : {item.description}</p>

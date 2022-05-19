@@ -1,0 +1,25 @@
+.One {
+    border: solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.Two {
+    border: solid 0.1px;
+    padding: 4px;
+    margin: 5px;
+}
+.Three {
+    
+    border: solid;
+    margin: auto;
+    width: 70%;
+}
+.Four {
+    color: rgb(21, 102, 173);
+    border: solid 0.1px;
+    margin: 5px;
+
+
+
+}
